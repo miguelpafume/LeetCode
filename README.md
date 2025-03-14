@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0463-island-perimeter](https://github.com/miguelpafume/LeetCode/tree/master/0463-island-perimeter) |
+| [1603-running-sum-of-1d-array](https://github.com/miguelpafume/LeetCode/tree/master/1603-running-sum-of-1d-array) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -25,4 +26,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/miguelpafume/LeetCode/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
+## Prefix Sum
+|  |
+| ------- |
+| [1603-running-sum-of-1d-array](https://github.com/miguelpafume/LeetCode/tree/master/1603-running-sum-of-1d-array) |
 <!---LeetCode Topics End-->
