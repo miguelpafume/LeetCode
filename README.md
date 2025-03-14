@@ -27,9 +27,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0190-reverse-bits](https://github.com/miguelpafume/LeetCode/tree/master/0190-reverse-bits) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/miguelpafume/LeetCode/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 ## Prefix Sum
 |  |
 | ------- |
 | [1603-running-sum-of-1d-array](https://github.com/miguelpafume/LeetCode/tree/master/1603-running-sum-of-1d-array) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0190-reverse-bits](https://github.com/miguelpafume/LeetCode/tree/master/0190-reverse-bits) |
 <!---LeetCode Topics End-->
