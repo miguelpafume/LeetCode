@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/miguelpafume/LeetCode/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/miguelpafume/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/miguelpafume/LeetCode/tree/master/0169-majority-element) |
 | [0463-island-perimeter](https://github.com/miguelpafume/LeetCode/tree/master/0463-island-perimeter) |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/miguelpafume/LeetCode/tree/master/0066-plus-one) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/miguelpafume/LeetCode/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 ## Bit Manipulation
 |  |
