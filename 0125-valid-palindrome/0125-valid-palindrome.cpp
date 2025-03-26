@@ -13,8 +13,8 @@ public:
                 continue;
             }
 
-            if (s[i] == std::toupper(s[i])) {
-                s[i] = std::tolower(s[i]);
+            if (s[i] >= 'A' && s[i] <= 'Z') {
+                s[i] += 32;
             }
 
             t.insert(t.begin(), s[i]);
