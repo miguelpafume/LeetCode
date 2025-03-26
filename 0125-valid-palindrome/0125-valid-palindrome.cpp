@@ -3,12 +3,16 @@
 class Solution {
 public:
     bool isPalindrome(std::string s) {
-        std::string t;
+        int i = 0, n = s.size()-1;
 
-        for (int i = 0; i < s.size(); i++) {
+        while (i < n) {
             if (!((s[i] >= 'a' && s[i] <= 'z' ) || (s[i] >= 'A' && s[i] <= 'Z') || (s[i] >= '0' && s[i] <= '9'))) {
-                s.erase(s.begin()+i);
-                i--;
+                i++;
+                continue;
+            }
+
+            if (!((s[n] >= 'a' && s[n] <= 'z' ) || (s[n] >= 'A' && s[n] <= 'Z') || (s[n] >= '0' && s[n] <= '9'))) {
+                n--;
                 continue;
             }
 
@@ -16,9 +20,17 @@ public:
                 s[i] += 32;
             }
 
-            t.insert(t.begin(), s[i]);
+            if (s[n] >= 'A' && s[n] <= 'Z') {
+                s[n] += 32;
+            }
+
+            if (s[i] != s[n]) {
+                return false;
+            }
+            i++;
+            n--;
         }
 
-        return s == t;
+        return true;           
     }
 };
