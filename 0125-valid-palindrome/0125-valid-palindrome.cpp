@@ -1,4 +1,5 @@
 #include <string>
+#include <cctype>
 
 class Solution {
 public:
@@ -6,21 +7,21 @@ public:
         int i = 0, n = s.size()-1;
 
         while (i < n) {
-            if (!((s[i] >= 'a' && s[i] <= 'z' ) || (s[i] >= 'A' && s[i] <= 'Z') || (s[i] >= '0' && s[i] <= '9'))) {
+            if (!(isalnum(s[i]))) {
                 i++;
                 continue;
             }
 
-            if (!((s[n] >= 'a' && s[n] <= 'z' ) || (s[n] >= 'A' && s[n] <= 'Z') || (s[n] >= '0' && s[n] <= '9'))) {
+            if (!(isalnum(s[n]))) {
                 n--;
                 continue;
             }
 
-            if (s[i] >= 'A' && s[i] <= 'Z') {
+            if (isupper(s[i])) {
                 s[i] += 32;
             }
 
-            if (s[n] >= 'A' && s[n] <= 'Z') {
+            if (isupper(s[n])) {
                 s[n] += 32;
             }
 
