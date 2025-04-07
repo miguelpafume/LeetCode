@@ -2,15 +2,13 @@ class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
         int found = ransomNote.find_first_of(magazine.back());
-        int x = 0;
         while (magazine.size() > 0) {
             if (found != string::npos) {
-                ransomNote[found] = '*';
-                x++;
+                ransomNote.erase(found, 1);
             }
             magazine.pop_back();
             if (magazine.size() > 0) { found = ransomNote.find_first_of(magazine.back()); }
-            if (x == ransomNote.size()) {return true;}
+            if (ransomNote.size() == 0) {return true;}
         }
         return false;
     }
