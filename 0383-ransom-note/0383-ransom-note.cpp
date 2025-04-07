@@ -10,9 +10,7 @@ public:
             }
             magazine.pop_back();
             if (magazine.size() > 0) { found = ransomNote.find_first_of(magazine.back()); }
-        }
-        if (x == ransomNote.size()) {
-            return true;
+            if (x == ransomNote.size()) {return true;}
         }
         return false;
     }
