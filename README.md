@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/miguelpafume/LeetCode/tree/master/0463-island-perimeter) |
 | [1603-running-sum-of-1d-array](https://github.com/miguelpafume/LeetCode/tree/master/1603-running-sum-of-1d-array) |
 | [1791-richest-customer-wealth](https://github.com/miguelpafume/LeetCode/tree/master/1791-richest-customer-wealth) |
+| [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/miguelpafume/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/miguelpafume/LeetCode/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/miguelpafume/LeetCode/tree/master/0383-ransom-note) |
+| [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/miguelpafume/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Counting
 |  |
 | ------- |
