@@ -9,6 +9,8 @@ unordered_map<char, int> stringToMap (string &str) {
 class Solution {
 public:
     bool isAnagram(string &s, string &t) {
+        if (s.size() != t.size()) return false;
+
         unordered_map<char, int> s_map = stringToMap(s);
         unordered_map<char, int> t_map = stringToMap(t);
 
