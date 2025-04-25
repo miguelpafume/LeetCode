@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/miguelpafume/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/miguelpafume/LeetCode/tree/master/0169-majority-element) |
 | [0463-island-perimeter](https://github.com/miguelpafume/LeetCode/tree/master/0463-island-perimeter) |
+| [1039-find-the-town-judge](https://github.com/miguelpafume/LeetCode/tree/master/1039-find-the-town-judge) |
 | [1603-running-sum-of-1d-array](https://github.com/miguelpafume/LeetCode/tree/master/1603-running-sum-of-1d-array) |
 | [1791-richest-customer-wealth](https://github.com/miguelpafume/LeetCode/tree/master/1791-richest-customer-wealth) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/miguelpafume/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/miguelpafume/LeetCode/tree/master/0202-happy-number) |
 | [0242-valid-anagram](https://github.com/miguelpafume/LeetCode/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/miguelpafume/LeetCode/tree/master/0383-ransom-note) |
+| [1039-find-the-town-judge](https://github.com/miguelpafume/LeetCode/tree/master/1039-find-the-town-judge) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/miguelpafume/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Counting
 |  |
@@ -104,4 +106,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/miguelpafume/LeetCode/tree/master/0020-valid-parentheses) |
+## Graph
+|  |
+| ------- |
+| [1039-find-the-town-judge](https://github.com/miguelpafume/LeetCode/tree/master/1039-find-the-town-judge) |
 <!---LeetCode Topics End-->
