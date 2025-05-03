@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/miguelpafume/LeetCode/tree/master/0066-plus-one) |
 | [0172-factorial-trailing-zeroes](https://github.com/miguelpafume/LeetCode/tree/master/0172-factorial-trailing-zeroes) |
 | [0202-happy-number](https://github.com/miguelpafume/LeetCode/tree/master/0202-happy-number) |
+| [0728-self-dividing-numbers](https://github.com/miguelpafume/LeetCode/tree/master/0728-self-dividing-numbers) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/miguelpafume/LeetCode/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [2481-strictly-palindromic-number](https://github.com/miguelpafume/LeetCode/tree/master/2481-strictly-palindromic-number) |
 ## Bit Manipulation
