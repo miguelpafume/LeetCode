@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0728-self-dividing-numbers](https://github.com/miguelpafume/LeetCode/tree/master/0728-self-dividing-numbers) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/miguelpafume/LeetCode/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [2481-strictly-palindromic-number](https://github.com/miguelpafume/LeetCode/tree/master/2481-strictly-palindromic-number) |
+| [3172-divisible-and-non-divisible-sums-difference](https://github.com/miguelpafume/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 ## Bit Manipulation
 |  |
 | ------- |
