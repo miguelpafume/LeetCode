@@ -10,19 +10,20 @@ public:
 
     int minOperations(vector<int>& nums, int k) {
         int operations = 0;
-        while (true) {
-            int sum = sumVec(nums);
+        for (int i = 0; i < nums.size(); i++) {
+            while (nums[i] > 0) {
+                int sum = sumVec(nums);
 
-            if (sum == 0 || (sum % k) == 0) {
-                return operations;
-            }
+                if (sum == 0 || (sum % k) == 0) {
+                    return operations;
+                }
 
-            for (int i = 0; i < nums.size(); i++) {
-                if (nums[i] == 0) continue;
                 nums[i]--;
                 operations++;
-                break;
             }
+
+            if (nums[i] == 0) continue;
         }
+        return operations;
     }
 };
