@@ -9,21 +9,6 @@ public:
     }
 
     int minOperations(vector<int>& nums, int k) {
-        int operations = 0;
-        for (int i = 0; i < nums.size(); i++) {
-            while (nums[i] > 0) {
-                int sum = sumVec(nums);
-
-                if (sum == 0 || (sum % k) == 0) {
-                    return operations;
-                }
-
-                nums[i]--;
-                operations++;
-            }
-
-            if (nums[i] == 0) continue;
-        }
-        return operations;
+        return sumVec(nums) % k;
     }
 };
