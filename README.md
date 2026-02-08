@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1039-find-the-town-judge](https://github.com/miguelpafume/LeetCode/tree/master/1039-find-the-town-judge) |
 | [1603-running-sum-of-1d-array](https://github.com/miguelpafume/LeetCode/tree/master/1603-running-sum-of-1d-array) |
 | [1791-richest-customer-wealth](https://github.com/miguelpafume/LeetCode/tree/master/1791-richest-customer-wealth) |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/miguelpafume/LeetCode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/miguelpafume/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Depth-First Search
 |  |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/miguelpafume/LeetCode/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [2481-strictly-palindromic-number](https://github.com/miguelpafume/LeetCode/tree/master/2481-strictly-palindromic-number) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/miguelpafume/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/miguelpafume/LeetCode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 ## Bit Manipulation
 |  |
 | ------- |
