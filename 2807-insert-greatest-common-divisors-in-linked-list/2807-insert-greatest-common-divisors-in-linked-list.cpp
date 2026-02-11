@@ -8,6 +8,9 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+#include <numeric>
+
 class Solution {
 public:
     ListNode* insertGreatestCommonDivisors(ListNode* head) {
@@ -16,21 +19,9 @@ public:
         ListNode *currentNode = head;
 
         while (currentNode->next != nullptr) {
-            ListNode *newNode = new ListNode();
-            ListNode *nextNode = currentNode->next;
-
-            int min = (currentNode->val <= nextNode->val) ? currentNode->val : nextNode->val;
-
-            for (int i = min; i > 0; i--) {
-                if (currentNode->val % i == 0 && nextNode->val % i == 0) {
-                    newNode->val = i;
-                    break;
-                }
-            }
-
+            ListNode *newNode = new ListNode(std::gcd(currentNode->val, currentNode->next->val), currentNode->next);
             currentNode->next = newNode;
-            newNode->next = nextNode;
-            currentNode = nextNode;
+            currentNode = newNode->next;
         }
         
         return head;
