@@ -10,16 +10,6 @@
  */
 class Solution {
 public:
-    int getCommonDivisor(int x, int y) {
-        int min = (x <= y) ? x : y;
-
-        for (int i = min; i > 0; i--) {
-            if (x % i == 0 && y % i == 0) return i;
-        }
-
-        return 1;
-    }
-
     ListNode* insertGreatestCommonDivisors(ListNode* head) {
         if (head->next == nullptr) return head;
 
@@ -29,7 +19,14 @@ public:
             ListNode *newNode = new ListNode();
             ListNode *nextNode = currentNode->next;
 
-            newNode->val = getCommonDivisor(currentNode->val, nextNode->val);
+            int min = (currentNode->val <= nextNode->val) ? currentNode->val : nextNode->val;
+
+            for (int i = min; i > 0; i--) {
+                if (currentNode->val % i == 0 && nextNode->val % i == 0) {
+                    newNode->val = i;
+                    break;
+                }
+            }
 
             currentNode->next = newNode;
             newNode->next = nextNode;
